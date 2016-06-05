@@ -1,0 +1,52 @@
+
+
+I have created a folder with batch files to build all dependencies in 32 and 64 bit:
+
+OpenSsl
+Qt
+qrencode
+miniupnpc
+BerkeleyDB
+Boost
+
+Please take a look at the README-FIRST file in the BuildHelpers directory.
+
+Here is how I have setup my directories at home and the projects and batch files expect something similar, with regards to the levels.
+
+ Directory of C:\MyProjects
+
+02/04/2014  03:18 PM    <DIR>          .
+02/04/2014  03:18 PM    <DIR>          ..
+02/04/2014  01:29 PM    <DIR>          Bitcoin
+01/27/2014  01:56 PM    <DIR>          BitcoinDeps
+02/04/2014  03:18 PM    <DIR>          Litecoin
+
+
+If I CD into Litecoin, it looks like this:
+
+ Directory of C:\MyProjects\Litecoin
+
+02/04/2014  03:18 PM    <DIR>          .
+02/04/2014  03:18 PM    <DIR>          ..
+02/04/2014  03:18 PM             1,111 COPYING.txt
+02/04/2014  03:24 PM    <DIR>          MSVC
+02/04/2014  03:18 PM             1,189 readme.txt
+02/04/2014  03:18 PM    <DIR>          src
+               2 File(s)          2,300 bytes
+
+
+BitcoinDeps looks like this:
+
+ Directory of C:\MyProjects\BitcoinDeps
+
+01/27/2014  01:56 PM    <DIR>          .
+01/27/2014  01:56 PM    <DIR>          ..
+01/27/2014  12:26 PM    <DIR>          backup distros
+12/27/2013  09:05 AM    <DIR>          boost_1_55_0
+02/04/2014  08:40 AM    <DIR>          build-helpers
+12/06/2013  02:33 PM    <DIR>          db-4.7.25.NC
+01/20/2014  03:26 PM    <DIR>          miniupnpc
+01/26/2014  05:23 PM    <DIR>          openssl-1.0.1e
+12/25/2013  10:49 AM    <DIR>          qrencode-win32
+01/26/2014  07:55 PM    <DIR>          qt-everywhere-opensource-src-5.1.1
+01/26/2014  08:05 PM    <DIR>          qt-everywhere-opensource-src-5.1.1-64

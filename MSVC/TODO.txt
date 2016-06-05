@@ -1,0 +1,16 @@
+TODO LIST 
+
+-- Need a new alert passcode for alert.cpp for both main net and test net
+
+-- This line needs to change in base58.h
+
+       PUBKEY_ADDRESS = 48, // Litecoin addresses start with L
+
+	   46 = K
+	   47 = L
+	   48 = L
+	   49 = L
+	   50 = M
+	   51 = M
+	   52 = N
+	   0  = 1
