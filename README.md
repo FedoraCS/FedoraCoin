@@ -1,3 +1,5 @@
+This is a fork from FedoraCoin, updated to fix sync problem and checkpoints. This is version 1.1.2.
+
 FedoraCoin integration/staging tree
 ================================
 
